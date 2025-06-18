@@ -5,8 +5,6 @@
 Patch_Detector.py는 IDA Python 기반의 Security Patch 탐지 자동화 스크립트입니다.
 탐지된 Security Patch는 주석을 통해서서 사용자에게 패치정보가 제공되며, 요약된 보고서가 생성됩니다.
 
----
-
 ## 기능개요
 Patch_detector.py는 보안 패턴 기반의 탐지, 명령어 흐름 기반의 보안 로직 탐지, 예외처리 및 보안 관련 함수 호출 여부로 다음과 같은 보안 패치를 탐지합니다.
 - stack 보호 
